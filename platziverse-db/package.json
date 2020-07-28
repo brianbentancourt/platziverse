@@ -1,0 +1,21 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "author": "Brian Bentancourt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbentancourt/platziverse.git"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "sequelize": "^6.3.3"
+  }
+}
