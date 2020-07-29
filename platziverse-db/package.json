@@ -4,7 +4,8 @@
   "description": "A simple IoT Platform - DB Module",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "setup": "SET DEBUG=platziverse:* && node setup.js"
   },
   "author": "Brian Bentancourt",
   "license": "MIT",
@@ -16,6 +17,8 @@
     "standard": "^14.3.4"
   },
   "dependencies": {
+    "debug": "^4.1.1",
+    "pg": "^8.3.0",
     "sequelize": "^6.3.3"
   }
 }
