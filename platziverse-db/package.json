@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard",
     "setup": "SET DEBUG=platziverse:* && node setup.js",
-    "test": "SET DEBUG=platziverse:* && ava --verbose"
+    "test": "SET DEBUG=platziverse:* && nyc --reporter=lcov ava --verbose"
   },
   "author": "Brian Bentancourt",
   "license": "MIT",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "ava": "^3.11.0",
+    "nyc": "^15.1.0",
     "sqlite3": "^5.0.0",
     "standard": "^14.3.4"
   },
