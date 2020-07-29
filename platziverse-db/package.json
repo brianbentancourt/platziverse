@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "setup": "SET DEBUG=platziverse:* && node setup.js"
+    "setup": "SET DEBUG=platziverse:* && node setup.js",
+    "test": "SET DEBUG=platziverse:* && ava --verbose"
   },
   "author": "Brian Bentancourt",
   "license": "MIT",
@@ -14,6 +15,8 @@
     "url": "git+https://github.com/brianbentancourt/platziverse.git"
   },
   "devDependencies": {
+    "ava": "^3.11.0",
+    "sqlite3": "^5.0.0",
     "standard": "^14.3.4"
   },
   "dependencies": {
