@@ -6,7 +6,7 @@ const setupMetricModel = require('./models/metric')
 const defaults = require('defaults')
 
 module.exports = async function (config) {
-  // a continuacion se setean valores por defecto para config 
+  // a continuacion se setean valores por defecto para config
   config = defaults(config, {
     dialect: 'sqlite',
     pool: {
